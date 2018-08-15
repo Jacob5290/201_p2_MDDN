@@ -1,0 +1,459 @@
+body {
+  background-color: white;
+  font-family: 'Raleway', sans-serif;
+   background-attachment:fixed;
+
+}
+
+
+
+.icon-bar {
+    width: 100%;
+    background-color: white;
+    overflow: auto;
+    float: left;
+    width: 100%;
+    text-align: center;
+    padding: 12px;
+    color: white;
+  height: auto;
+    
+}
+
+
+a {
+  color: white;
+  -webkit-transition: 0.5s;
+  -o-transition: 0.5s;
+  transition: 0.5s;
+}
+
+a:hover {
+  text-decoration: none !important;
+  color: white;
+}
+
+#banner {
+   
+  background-image: url("IntroPhotoBot.jpg") ;
+  background-size: cover;
+  background-position: bottom center;
+  height: 800px;
+  width: 100%;  
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+#banner2 {
+ 
+  background-image:  url("IntroPhotoTop.jpg");
+  background-size: cover;
+  background-position: bottom center;
+  height:800px;
+  width: 100%;  
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  animation-name: FadeInOut;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+  animation-duration: 8s;
+  animation-direction: alternate;
+
+}
+
+
+
+#banner .content h1 {
+  
+  position: relative;
+  top: 300px;
+  width: 100%;
+  margin: auto;
+  background-color: white;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  
+ display: block;
+}
+
+#banner3{
+
+
+	margin-top: 15px;
+	margin-bottom: 10px;
+    background-color:  white;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    text-align: center;
+
+}
+
+#banner4{
+
+
+	margin-top: 100px;
+	margin-bottom: 10px;
+    background-color:  white;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    text-align: center;
+    border-top: 2px solid #720e42;
+   
+    
+
+}
+
+
+
+
+h1 {
+  color: black;
+  font-size: 22px;
+  font-weight: 120;
+  text-align: center;
+letter-spacing: 2px;
+
+}
+
+  @keyframes FadeInOut {
+  0% {
+  opacity:1;
+}
+45% {
+opacity:1;
+}
+55% {
+opacity:0;
+}
+100% {
+opacity:0;
+}
+}
+
+
+section{
+	max-width: 2000px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 10px;
+	margin-bottom: 10px;
+   background-color:  white;
+
+}
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    background-color: white;
+    border-top: 4px solid #720e42;
+    color: DarkGrey;
+ 
+
+}
+
+
+li a {
+    display: block;
+    color: #000;
+    padding: 20px;
+    text-decoration: none;
+    font-size: 15px;
+    font-family: 'Raleway', sans-serif;
+     font-weight: 100;
+      letter-spacing: 2px;
+
+}
+
+li {
+    text-align: center;
+    
+
+}
+
+
+li a:hover:not(.active) {
+    background-color: gray;
+    color: white;
+}
+
+
+
+h2{
+      color: black;
+  font-size: 22px;
+  font-weight: 120;
+  text-align: center;
+letter-spacing: 2px;
+border-bottom: 2px solid #720e42;
+}
+
+p{
+      font-size: 15px;
+  font-weight: 120;
+    font-family: 'Raleway', sans-serif;
+    letter-spacing: 2px;
+    color: gray;
+}
+
+.g-row{
+	width: 100%;
+	overflow: hidden;
+    background: #e7e1e8;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+   
+}
+
+.g-row img{
+	width: 80%; /*This makes all images in grids to be the size of their cell */
+}
+
+.g-50{
+	width: 50%;
+	float: left;
+}
+
+.g-30{
+	width: 30%;
+	float: left;
+}
+
+.g-70{
+	width: 70%;
+	float: left;
+}
+
+.show{
+	border: 1px solid blue;
+	padding: 2px;
+}
+
+.padded{
+	padding: 20px; /* I add this to cells to add a little padding*/
+}
+
+
+footer{
+    	margin-top: 30px;
+	padding-top: 30px;
+    background-color:  #720e42;
+    padding-bottom: 50px;
+    
+    text-align: center;
+ 
+}
+
+/* =======================================================
+*
+*
+*   Edit this section
+*
+* ======================================================= */
+
+
+
+
+
+
+.wrap {
+  text-align: center;
+  width: 100%;
+  margin-bottom: 3em;
+}
+
+#availability {
+  background: #720e42;
+  width: 100%;
+  top: 1em;
+  z-index: 99;
+  position: relative;
+  display: inline-block;
+  margin-top: 0;
+  margin-bottom: 0;
+  -webkit-box-shadow: 1px 2px 2px 0px rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: 1px 2px 2px 0px rgba(0, 0, 0, 0.2);
+  -ms-box-shadow: 1px 2px 2px 0px rgba(0, 0, 0, 0.2);
+  -o-box-shadow: 1px 2px 2px 0px rgba(0, 0, 0, 0.2);
+  box-shadow: 1px 2px 2px 0px rgba(0, 0, 0, 0.2);
+}
+@media screen and (max-width: 1176px) {
+  #availability {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 1130px) {
+  #availability {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 915px) {
+  #availability {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 915px) {
+  #availability {
+    width: 100%;
+    top: 0;
+  }
+}
+@media screen and (max-width: 769px) {
+  #availability {
+    width: 100%;
+  }
+}
+#availability > form {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+}
+@media screen and (max-width: 829px) {
+  #availability > form {
+    flex-wrap: wrap;
+    -webkit-flex-wrap: wrap;
+    -moz-flex-wrap: wrap;
+  }
+}
+#availability .a-col {
+  width: 20%;
+  float: left;
+  position: relative;
+  padding: 14px;
+}
+@media screen and (max-width: 829px) {
+  #availability .a-col {
+    width: 100% !important;
+  }
+}
+#availability .a-col.alternate {
+  width: 30%;
+}
+@media screen and (max-width: 829px) {
+  #availability .a-col.alternate {
+    width: 50% !important;
+  }
+}
+@media screen and (max-width: 492px) {
+  #availability .a-col.alternate {
+    width: 100% !important;
+  }
+}
+#availability .a-col.action {
+  padding: 0 !important;
+  position: relative;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  justify-content: center;
+}
+#availability .a-col.action a {
+  align-items: center;
+  vertical-align: middle;
+  height: 100%;
+  line-height: 20px;
+  padding: 14px;
+  display: block;
+  width: 100%;
+  color: #fff;
+  text-align: left;
+  background: #3c4146;
+  text-transform: uppercase;
+  -webkit-transition: 0.5s;
+  -o-transition: 0.5s;
+  transition: 0.5s;
+}
+#availability .a-col.action a::after {
+  font-family: 'themify';
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  top: 50%;
+  right: 20px;
+  margin-top: -10px;
+  content: "\e649";
+  position: absolute;
+  font-size: 16px;
+  color: white;
+  -webkit-transition: 0.2s;
+  -o-transition: 0.2s;
+  transition: 0.2s;
+}
+#availability .a-col.action a:hover {
+  text-decoration: none;
+  background: #24282b;
+  outline: none;
+}
+#availability .a-col.action a:hover::after {
+  right: 10px;
+}
+#availability .a-col.action a:focus, #availability .a-col.action a:active {
+  outline: none;
+  text-decoration: none;
+}
+#availability .a-col.action a span {
+  display: block;
+}
+#availability .a-col .input-field {
+  width: 100%;
+}
+#availability .a-col .input-field label, #availability .a-col .input-field input[type="text"] {
+  display: inline-block;
+}
+#availability .a-col .input-field label {
+  margin-right: 10px;
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: #fff;
+  float: left;
+  margin-top: 7px;
+}
+#availability .a-col .input-field input[type="text"] {
+  float: right;
+  margin-right: 0;
+  width: 60%;
+  height: 42px;
+  font-size: 15px;
+  line-height: 36px;
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
+  color: #fff;
+  background: transparent url(../images/arrow_down_input.png) 98% 90% no-repeat;
+  border: 2px solid rgba(255, 255, 255, 0.5);
+  border-radius: 0px;
+  box-shadow: none;
+}
+#availability .a-col .input-field input[type="text"]:focus, #availability .a-col .input-field input[type="text"]:active {
+  box-shadow: none;
+  outline: none;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+
+
+
+
+
+ 
+
+
